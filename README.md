@@ -20,7 +20,7 @@ which will take care of all the compilation burder. An executable file `hyper_su
 The program reads a triangular mesh (both OBJ and OFF formats are supported) and a bipartition of it, represented by a text file having one line per triangle, valued either 0 or 1. A simple example is included in the `./data` folder, to run it:
 
 ```
-./bin/hyper_surface_smoothing ./data/circle.obj ./data/circle_labeling.txt
+./hyper_surface_smoothing ../data/circle.obj ../data/circle_labeling.txt
 ```
 
 <p align="center"><img src="teaser.png" width="1000"></p>
