@@ -18,3 +18,5 @@ which will take care of all the compilation burder. An executable file `hyper_su
 
 ### Usage
 The program reads a triangular mesh (both OBJ and OFF formats are supported) and a bipartition of it, represented by a text file having one line per triangle, valued either 0 or 1. A simple example is included in the `/data` folder. 
+
+<p align="center"><img src="teaser.pdf" width="500"></p>
